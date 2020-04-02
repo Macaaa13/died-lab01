@@ -16,8 +16,24 @@ public class Temperatura {
 		this.grados = g;
 		this.escala = e;
 	}
-
 	
+	//Getters y Setters
+	public Double getGrados() {
+		return grados;
+	}
+
+	public void setGrados(Double grados) {
+		this.grados = grados;
+	}
+
+	public Escala getEscala() {
+		return escala;
+	}
+
+	public void setEscala(Escala escala) {
+		this.escala = escala;
+	}
+
 	//Métodos
 	public String toString() {
 		if(this.escala == Escala.CELCIUS) {
